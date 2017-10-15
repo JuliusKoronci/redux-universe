@@ -1,6 +1,6 @@
 {
   "name": "redux-universe",
-  "version": "0.1.0",
+  "version": "0.1.0-beta.0",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -23,6 +23,10 @@
     "@types/enzyme": "^2.8.11",
     "@types/istanbul": "^0.4.29",
     "@types/jest": "^21.1.2",
+    "@types/react": "^16.0.10",
+    "@types/react-redux": "^5.0.10",
+    "@types/redux-actions": "^2.2.2",
+    "@types/seamless-immutable": "^7.1.1",
     "enzyme": "^3.1.0",
     "istanbul": "^0.4.5",
     "jest": "^21.2.1",
@@ -32,7 +36,15 @@
     "typescript": "^2.5.3",
     "watch": "^1.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fast-memoize": "^2.2.8",
+    "immutable": "^3.8.2",
+    "react": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "seamless-immutable": "^7.1.2"
+  },
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "<rootDir>/../node_modules/ts-jest/preprocessor.js"
